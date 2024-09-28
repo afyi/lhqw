@@ -41,7 +41,7 @@ jobs:
         run: yarn run build
         
       - name: 配置Pages参数
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v4
       
       - name: 上传到Pages服务
         uses: actions/upload-pages-artifact@v1
